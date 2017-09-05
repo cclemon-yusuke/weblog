@@ -1,0 +1,243 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    padding: 0;
+    margin: 0;
+    font-family: "Avenir Next", "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+
+header {
+    background-color: #fff;
+    height: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .00);
+}
+
+.profile {
+    background: #fff;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    margin: 0 0 0 20%;
+}
+
+.profile-img img {
+    border-radius: 80px;
+    margin-top: 30px;
+}
+
+.profile-name {
+    width: 186px;
+    margin-left: 20px; /*仮*/
+    margin-top: 32px;
+}
+
+.profile-name h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0 0 0 0;
+}
+
+.profile-name h2 {
+    font-size: 14px;
+    color: #F5A623;
+    font-weight: lighter;
+    margin: 0 0 0 0;
+}
+
+
+nav {
+    max-width: 720px;
+    height: 40px;
+    background-color: #FFFFFF;
+    margin: 0 0 0 20%;
+}
+
+nav ul {
+    display: -webkit-flex;
+    display: flex;
+    margin: 23px 0 0 0; /*仮*/
+    padding: 0;
+    border-top: solid 1px #F0F0F0;
+}
+
+nav ul li {
+    background-color: #FFFFFF;
+    width: 100px;
+    height: 40px;
+    list-style: none;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #999;
+    display: block;
+    margin:0 10px 0 10px;
+}
+
+nav ul li a:hover {
+    background-color: #F1F1F1;
+    color: #4A4A4A;
+}
+
+main {
+    max-width: 700px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.one_article {
+    background-color: #FFFFFF;
+    max-width: 700px;
+    /*height: 340px; !*仮*!*/
+    margin: 30px auto 0 auto;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .08);
+}
+
+.one_article time {
+    display: block;
+    font-weight: inherit; /*仮*/
+    color: #4A4A4A;
+    font-size: 14px;
+    margin: 0 auto;
+    padding:20px 0 0 18px;
+}
+
+.one_article h2 {
+    display: block;
+    color: #4A4A4A;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 auto;
+    padding:10px 0 0 18px;
+
+}
+
+.one_article img{
+    display: block;
+    margin: 0 auto;
+    padding: 18px 0 0 0;
+}
+
+.one_article .sentence {
+    display: inline-block;
+    font-family: "Hiragino Mincho ProN", serif;
+    color: #5C5C5C;
+    font-size: 18px;
+    font-weight: 100;
+    max-width: 660px;
+    margin: 0 auto;
+    padding: 15px 0 0 18px;
+}
+
+.one_article .continuation {
+    display: block;
+    font-size: 14px;
+    color: #5C5C5C;
+    text-decoration: none;
+    font-weight: 300;
+    margin:0 auto;
+    padding: 31px 0 20px 18px;
+}
+
+.right_triangle {
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-left-color: #4A90E2;
+    display: inline-block;
+    margin: 10px 7px 0 0;
+}
+
+.right_triangle_02 {
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-left-color: #4A90E2;
+    margin: 5px 0 0 5px;
+    display: inline-block;
+    line-height: 4px;
+
+}
+
+.left_triangle {
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-right-color: #4A90E2;
+    display: inline-block;
+    margin-right: 7px;
+    opacity: 0.3;/*１ページ目のみ有効*/
+
+}
+
+footer {
+    background-color: #FFFFFF;
+    width: 700px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+footer ul {
+    padding: 0;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.footer_page {
+    width: 25px;
+    height: 25px;
+    list-style: none;
+    text-align: center;
+    font-size: 14px;
+    margin: 18px 0 0 0;
+}
+
+.footer_page a {
+    text-decoration: none;
+    color: #4A4A4A;
+}
+
+.footer_new-article {
+    display: inline-block;
+    width: 88px;
+    height: 14px;
+    margin: 15px auto;
+    list-style: none;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer_new-article a {
+    text-decoration: none;
+    color: #BBBBBB;/*１ページ目のみ有効*/
+}
+
+.footer_old-article {
+    height: 14px;
+    margin: 15px auto;
+    list-style: none;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer_old-article a {
+    text-decoration: none;
+    color: #4A4A4A;
+}
+
+
+
+
+
+
+
